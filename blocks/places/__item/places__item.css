@@ -1,5 +1,4 @@
 .places__item {
-  /* grid container */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -12,7 +11,6 @@
 
 @media screen and (min-width: 768px) {
   .places__item {
-    /* grid container */
     grid-template-columns: calc(340px + 24px) 1fr;
     grid-template-areas:
       "title website"
@@ -23,7 +21,6 @@
 
 @media screen and (min-width: 1024px) {
   .places__item {
-    /* grid container */
     grid-template-columns: calc(440px + 48px) 1fr;
     gap: 48px 32px;
   }
@@ -31,7 +28,6 @@
 
 @media screen and (min-width: 1280px) {
   .places__item {
-    /* grid container */
     grid-template-columns: calc(460px + 148px) 1fr;
     gap: 48px 40px;
   }
