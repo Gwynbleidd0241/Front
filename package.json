@@ -6,7 +6,7 @@
     "build": "webpack --mode production",
     "dev": "webpack serve"
   },
-  "author": "",
+  "author": "Sergey Lazarenko",
   "license": "ISC",
   "description": "",
   "devDependencies": {
@@ -25,6 +25,9 @@
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
-    "core-js": "^3.39.0"
+    "core-js": "^3.39.0",
+    "glob": "^11.0.0",
+    "inflight": "^1.0.6",
+    "rimraf": "^6.0.1"
   }
 }
